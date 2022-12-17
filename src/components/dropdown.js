@@ -16,6 +16,7 @@ const Dropdown = () => {
     }
 
     const results = list.map((result, index) => {
+         // eslint-disable-next-line
         return <a href="#" onClick={onClickHandeler} key={index}>{result}</a>;
     })
 
@@ -23,7 +24,7 @@ const Dropdown = () => {
         <div className="dropdown">
             <h1>Should you use a dropdown?</h1>
             <h3>{value}</h3>
-            <button className="dropbtn" onMouseEnter={onMouseHover}>Select</button>
+            <button className="dropbtn" onMouseOver={onMouseHover}>Select</button>
             <div className="dropdown-content" style={{ display: `${isActive ? 'block' : 'none'}` }}>
                 {results}
             </div>
