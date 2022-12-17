@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/its-roshanojha/Dropdown-app.git/static/css/main.5f92549f.css",
+    "main.js": "/its-roshanojha/Dropdown-app.git/static/js/main.c658aca5.js",
+    "index.html": "/its-roshanojha/Dropdown-app.git/index.html",
+    "main.5f92549f.css.map": "/its-roshanojha/Dropdown-app.git/static/css/main.5f92549f.css.map",
+    "main.c658aca5.js.map": "/its-roshanojha/Dropdown-app.git/static/js/main.c658aca5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5f92549f.css",
+    "static/js/main.c658aca5.js"
+  ]
+}
